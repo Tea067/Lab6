@@ -31,6 +31,7 @@ double pythagoras(double x, double y){
 }
 
 
+
 void showResult(double result_vec_length, double result_vec_direction){
     for(int i=0; i<60; i++) cout << "%";
     cout << endl << endl;

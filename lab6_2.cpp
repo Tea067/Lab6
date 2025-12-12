@@ -33,13 +33,13 @@ double pythagoras(double x, double y){
 
 
 void showResult(double result_vec_length, double result_vec_direction){
-    for(int i=0; i<60; i++) cout << "%";
+    for(int i=0; i<56; i++) cout << "%";
     cout << endl << endl;
 
     cout << "Length of the resultant vector = " << result_vec_length << endl << endl;
     cout << "Direction of the resultant vector (deg) = "<< result_vec_direction << endl << endl;
 
-    for(int i=0; i<60; i++) cout << "%";
+    for(int i=0; i<56; i++) cout << "%";
     cout << endl;
 }
 

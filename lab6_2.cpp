@@ -4,11 +4,11 @@
 using namespace std;
 
 double deg2rad(double deg){
-    return deg * (3.14159 / 180.0);
+    return deg * (M_PI / 180.0);
 }
 
 double rad2deg(double rad){
-    return rad * (180.0 / 3.14159);
+    return rad * (180.0 / M_PI);
 }
 
 
